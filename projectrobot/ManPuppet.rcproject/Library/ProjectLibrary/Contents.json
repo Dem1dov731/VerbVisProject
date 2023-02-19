@@ -1,0 +1,82 @@
+[
+  {
+    "libraryIdentifier" : "67269e2fe922c7eaa1d2dbe33642b735",
+    "format" : "model",
+    "displayName" : "CosmonautSuit_en.reality"
+  },
+  {
+    "libraryIdentifier" : "4fa9d237d56c98073970387ef4097926",
+    "format" : "model",
+    "displayName" : "robot_walk_idle.usdz"
+  },
+  {
+    "libraryIdentifier" : "4202d47f25818c7bac3a4564aa062efa",
+    "format" : "model",
+    "displayName" : "Rigged_Human_Character_Free.usdz"
+  },
+  {
+    "libraryIdentifier" : "179b5b9926361ff14cd688dc6887bd05",
+    "format" : "model",
+    "displayName" : "look behind.usdz"
+  },
+  {
+    "libraryIdentifier" : "f33a33dfb56a9ab7cbd1c0f90650a06e",
+    "format" : "model",
+    "displayName" : "Girl.usdz"
+  },
+  {
+    "libraryIdentifier" : "1ee5a470d71f67ae2b3acc9feb6e04e4",
+    "format" : "model",
+    "displayName" : "LookOver.usdz"
+  },
+  {
+    "libraryIdentifier" : "b7dc616dbd0d7c24333e1dd211857957",
+    "format" : "model",
+    "displayName" : "LookOver.usdz"
+  },
+  {
+    "libraryIdentifier" : "6329a8d56f2bc076b10f0c6742f23a4f",
+    "format" : "model",
+    "displayName" : "LookOver.usdz"
+  },
+  {
+    "libraryIdentifier" : "6eb7c3354743cf6396f2c3ff9c783275",
+    "format" : "model",
+    "displayName" : "PickUp.usdz"
+  },
+  {
+    "libraryIdentifier" : "3985702f2ebee9842042e5c419d37cd7",
+    "format" : "model",
+    "displayName" : "PickUp.usdz"
+  },
+  {
+    "libraryIdentifier" : "005e21a089e441c15e89bf435ee27a7c",
+    "format" : "model",
+    "displayName" : "StandingIdle.usdz"
+  },
+  {
+    "libraryIdentifier" : "54c065d1a9f552cd3d8d61ab61f32d97",
+    "format" : "model",
+    "displayName" : "StartWalking.usdz"
+  },
+  {
+    "libraryIdentifier" : "17de142acbb78006dff4da71285451a1",
+    "format" : "model",
+    "displayName" : "StandUp.usdz"
+  },
+  {
+    "libraryIdentifier" : "447d8358806f7ed1b91ea847c5498ffb",
+    "format" : "model",
+    "displayName" : "Sitting.usdz"
+  },
+  {
+    "libraryIdentifier" : "2d1e4c03b2a285c6e62e259702ce8820",
+    "format" : "model",
+    "displayName" : "StartWalking.usdz"
+  },
+  {
+    "libraryIdentifier" : "63576e4359f6c2f4ed29d01f2f408247",
+    "format" : "model",
+    "displayName" : "PickUp.usdz"
+  }
+]

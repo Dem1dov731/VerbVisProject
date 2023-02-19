@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  projectrobot
-//
-//  Created by Grigory Demidov on 19.02.2023.
-//
-
 import UIKit
 
 @main
