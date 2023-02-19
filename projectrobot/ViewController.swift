@@ -41,8 +41,7 @@ class ViewController: UIViewController {
     @IBAction func LookOverTapped(_ sender: Any) {
         anchorMan.notifications.lookOverReaction.post()
     }
-    @IBAction func lookover(_ sender: Any) {
-    }
+   
     
     @IBAction func BaseTapped(_ sender: Any) {
         anchorMan.notifications.baseReact.post()
