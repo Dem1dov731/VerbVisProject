@@ -4,26 +4,18 @@ import RealityKit
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
- 
-    var anchorMan : ManPuppet.SceneBase! // Создаем переменную модель-AR из Reality Composer с загрузкой базовой сцены
-
+    
+    var anchorMan: ManPuppet.SceneBase!
+    var isBaseButtonTapped = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-        anchorMan = try! ManPuppet.loadSceneBase()  // этот код пытаеся инициировать при включении приложения модельку на горизонтальной поверхности
-        anchorMan.generateCollisionShapes(recursive: true) // описанное выше
-        arView.scene.anchors.append(anchorMan) // ARView включает сцену с anchor-ом
-      
-        
-        
+        // Не загружаем базовую модель здесь
     }
-    
-    // Кнопки. Каждая кнопка отсылает "уведомление" в формате Движение.post()
     
     @IBAction func WalkOverTapped(_ sender: Any) {
         anchorMan.notifications.walkOver.post()
     }
-    
     
     @IBAction func PickUpTapped(_ sender: Any) {
         anchorMan.notifications.pickUpReaction.post()
@@ -33,7 +25,6 @@ class ViewController: UIViewController {
         anchorMan.notifications.standUpReact.post()
     }
     
-    
     @IBAction func SitDownTapped(_ sender: Any) {
         anchorMan.notifications.sitDownReaction.post()
     }
@@ -41,9 +32,16 @@ class ViewController: UIViewController {
     @IBAction func LookOverTapped(_ sender: Any) {
         anchorMan.notifications.lookOverReaction.post()
     }
-   
     
     @IBAction func BaseTapped(_ sender: Any) {
+        if !isBaseButtonTapped {
+            anchorMan = try! ManPuppet.loadSceneBase()
+            anchorMan.generateCollisionShapes(recursive: true)
+            arView.scene.anchors.append(anchorMan)
+            isBaseButtonTapped = true
+            let button = sender as! UIButton
+            button.setTitle("Base loaded", for: .normal)
+        }
         anchorMan.notifications.baseReact.post()
     }
 }

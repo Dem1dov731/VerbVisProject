@@ -26,7 +26,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="BaseTapped:" destination="lQd-2I-th6" eventType="touchUpInside" id="IZ3-cN-V4H"/>
+                                    <action selector="BaseTapped:" destination="lQd-2I-th6" eventType="touchUpInside" id="PV0-Mm-jkt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGx-xw-b0b">
